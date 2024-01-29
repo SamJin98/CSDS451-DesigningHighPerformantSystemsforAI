@@ -1,0 +1,10 @@
+to run the model, just go to school hpc
+for single node execution run
+1. cd to BERT or mingpt foler depends on which model you want to run
+2. for single node execution of the program: torchrun --standalone --nproc_per_node=<GPU> main.py, <GPU> is the number of gpu or your worker node
+3. for multi nodes execution of the program:
+    1. start multiple worker nodes
+    2. in each worker node run: torchrun --nproc_per_node=<GPU> --nnodes=2 --node_rank=0 --rdzv_id=<RDN> --rdzv_backend=c10d --rdzv_endpoint=<IP> main.py
+       Here, <GPU> is number of gpu of the worker node, this can be different for different node
+       <RDN> is just random integer such as 123
+       <IP> of your worker node, for example, in school hpc, this is something like classt02, classt03
