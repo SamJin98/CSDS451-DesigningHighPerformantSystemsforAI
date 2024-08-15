@@ -1,3 +1,3 @@
-# Introduction
+# CSDS451
 
-This is the course project for CSDS451 Designing High Performant Systems for AI at Case Western Reserve University.
+Repository for CSDS451 - Designing High Performant Systems for AI
