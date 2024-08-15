@@ -1,7 +1,6 @@
 # Introduction
 
-This is the course project for both CSDS451 Designing High Performant Systems for AI
- at Case Western Reserve University.
+This is the course project for CSDS451 Designing High Performant Systems for AI at Case Western Reserve University.
 
 Team member consist of me, [Ruilin Jin](https://samjin98.github.io/), [Xiaoge Zhang](xxz705@case.edu), and [Yimin Huang](yxh849@case.edu)
 
